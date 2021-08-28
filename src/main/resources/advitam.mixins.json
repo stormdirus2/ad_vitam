@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.fenrir.advitam.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "AbstractBlockMixin",
+    "EntityMixin",
+    "ItemStackMixin",
+    "LivingEntityMixin",
+    "ServerPlayerInteractionManagerMixin",
+    "SpiderEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
