@@ -9,8 +9,8 @@ Includes:
 * A 'Second Wind' status effect to give you time to collect your items before burning up!
 * Roasted Spider eyes as an easy way to acquire Weakness for curing!
 * A 'Memento Mori' status effect to store and reapply Attrition upon Player death just to feel the PAIN! (And, yknow, balance Demons a bit)
-* Host rebellion!
-* Hostile detection balancing!
+* Host rebellion! (Curses! Where's some anti-Union laws when you need em??)
+* Hostile detection balancing! (Watch out! At least one of those Zombies has found you out!)
 * A (disabled by default) Attrition softlock feature for a semi-hardcore experience!
 * Advancements!
 * Gamerules!
