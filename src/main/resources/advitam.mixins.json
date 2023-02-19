@@ -1,17 +1,19 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fenrir.advitam.mixin",
-  "compatibilityLevel": "JAVA_16",
+  "package": "net.scirave.advitam.mixin",
+  "compatibilityLevel": "JAVA_17",
   "mixins": [
     "AbstractBlockMixin",
     "EntityMixin",
-    "ItemStackMixin",
     "LivingEntityMixin",
+    "MobEntityMixin",
+    "MutableRemnantStateMixin",
+    "RemnantComponentImplMixin",
+    "ServerPlayerEntityMixin",
     "ServerPlayerInteractionManagerMixin",
-    "SpiderEntityMixin"
-  ],
-  "client": [
+    "SpiderEntityMixin",
+    "VanillaRequiemPluginMixin"
   ],
   "injectors": {
     "defaultRequire": 1

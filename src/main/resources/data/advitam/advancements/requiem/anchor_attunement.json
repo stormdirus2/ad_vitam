@@ -1,0 +1,29 @@
+{
+  "parent": "requiem:requiem/root",
+  "display": {
+    "icon": {
+      "item": "advitam:enigmatic_soul_vessel"
+    },
+    "title": {
+      "translate": "advitam:advancements.advitam.anchor_attunement.title"
+    },
+    "description": {
+      "translate": "advitam:advancements.advitam.anchor_attunement.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "had_anchor_attuned": {
+      "trigger": "advitam:anchor_attunement",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "had_anchor_attuned"
+    ]
+  ]
+}

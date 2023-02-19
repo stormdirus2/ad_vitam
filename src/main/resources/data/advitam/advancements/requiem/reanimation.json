@@ -1,0 +1,29 @@
+{
+  "parent": "requiem:requiem/first_possession",
+  "display": {
+    "icon": {
+      "item": "requiem:totem_of_skeletonization"
+    },
+    "title": {
+      "translate": "advitam:advancements.advitam.reanimation.title"
+    },
+    "description": {
+      "translate": "advitam:advancements.advitam.reanimation.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "reanimation": {
+      "trigger": "advitam:player_reanimated",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "reanimation"
+    ]
+  ]
+}

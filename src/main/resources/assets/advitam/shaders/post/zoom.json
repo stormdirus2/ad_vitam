@@ -1,0 +1,24 @@
+{
+  "targets": [
+    "swap",
+    "zoom_focus"
+  ],
+  "passes": [
+    {
+      "name": "advitam:zoom",
+      "intarget": "minecraft:main",
+      "outtarget": "swap"
+    },
+    {
+      "name": "advitam:combine",
+      "intarget": "swap",
+      "outtarget": "minecraft:main",
+      "auxtargets": [
+        {
+          "name": "OverlaySampler",
+          "id": "zoom_focus"
+        }
+      ]
+    }
+  ]
+}

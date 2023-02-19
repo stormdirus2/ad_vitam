@@ -1,0 +1,29 @@
+{
+  "parent": "requiem:requiem/good_as_new",
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_11"
+    },
+    "title": {
+      "translate": "advitam:advancements.advitam.memento_converted.title"
+    },
+    "description": {
+      "translate": "advitam:advancements.advitam.memento_converted.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "had_memento_converted": {
+      "trigger": "advitam:memento_converted",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "had_memento_converted"
+    ]
+  ]
+}

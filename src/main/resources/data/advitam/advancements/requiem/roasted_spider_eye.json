@@ -1,0 +1,37 @@
+{
+  "parent": "requiem:requiem/root",
+  "display": {
+    "icon": {
+      "item": "advitam:roasted_spider_eye"
+    },
+    "title": {
+      "translate": "advitam:advancements.advitam.roasted_spider_eye.title"
+    },
+    "description": {
+      "translate": "advitam:advancements.advitam.roasted_spider_eye.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_spider_eye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "advitam:roasted_spider_eye"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_spider_eye"
+    ]
+  ]
+}

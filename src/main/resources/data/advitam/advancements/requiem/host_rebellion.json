@@ -1,0 +1,29 @@
+{
+  "parent": "requiem:requiem/first_possession",
+  "display": {
+    "icon": {
+      "item": "minecraft:goat_horn"
+    },
+    "title": {
+      "translate": "advitam:advancements.advitam.host_rebellion.title"
+    },
+    "description": {
+      "translate": "advitam:advancements.advitam.host_rebellion.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "had_host_rebel": {
+      "trigger": "advitam:host_rebelled",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "had_host_rebel"
+    ]
+  ]
+}
